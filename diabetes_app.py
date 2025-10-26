@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 
 #loading the saved model
 
-diabetes_model = pickle.load(open('C:/Users/hemal/.spyder-py3/diabetes_model (2).sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model (2).sav','rb'))
 
 # Page title
 
@@ -41,4 +41,5 @@ if st.button('Diabetes Test Result'):
         diab_diagnosis = 'The person is Not Diabetic'
     
 st.success(diab_diagnosis)  
+
     
