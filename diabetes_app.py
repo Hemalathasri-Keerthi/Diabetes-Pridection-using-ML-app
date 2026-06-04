@@ -15,7 +15,7 @@ diabetes_model = pickle.load(open('diabetes_model (2).sav','rb'))
 
 # Page title
 
-st.title('Diabetes Pridection using ML')
+st.title('Diabetes Prediction using ML')
 
 Pregnancies = st.text_input('Number of Pregnancies')
 Glucose = st.text_input('Glucose level')
