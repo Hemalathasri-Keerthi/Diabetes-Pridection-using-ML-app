@@ -1,1 +1,1 @@
-# Diabetes-Pridection-using-ML-app
+# Diabetes-Prediction-using-ML-app
